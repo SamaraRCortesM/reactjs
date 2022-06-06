@@ -22,7 +22,7 @@ class Formulario extends React.Component {
     };
 
     handleSubmit(event) {
-        alert('Se enviaron los datos de : ' + this.state.value);
+        alert('Datos enviados : ' + this.state.value);
         event.preventDefault();
     };
 

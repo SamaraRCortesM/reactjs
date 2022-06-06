@@ -108,3 +108,72 @@ color: brown;
   margin:auto;
   width:50px;
 }
+ul{
+
+  list-style-type: none;
+  
+  margin: 0;
+  
+  padding: 0;
+  
+  overflow: hidden;
+  
+  border: 1px solid #e7e7e7;
+  
+  background-color: #f3f3f3;
+  
+  }
+  
+  
+  
+  li{
+  
+  float: left;
+  
+  padding-left: 5px;
+  
+  display: block;
+  
+  color: #666;
+  
+  text-align: center;
+  
+  padding: 14px 16px;
+  
+  text-decoration: none;
+  
+  color: white;
+  
+  background-color:#f3f3f3;
+  
+  }
+  
+  
+  
+  li:hover:not(.active) {
+  
+  background-color:cadetblue;
+  
+  }
+  
+  
+  
+  :link{
+  
+  display: block;
+  
+  text-decoration: none;
+  
+  color: white;
+  
+  }
+  
+  
+  
+  .button{
+  
+  background-color: blue;
+  
+  padding: 10px;
+  
+  }

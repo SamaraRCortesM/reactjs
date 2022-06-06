@@ -55,7 +55,7 @@ export default function SumayRestar() {
             <div className='botones'>
                 <button class="boton11" onClick={suma}>sumar</button>
                 <button class="boton22" onClick={multi}>multiplicar</button>
-                <h3>El resultado es: <span className='result-color'> {result} </span> </h3> 
+                <h3>El resultado es: <span className='resultado'> {result} </span> </h3> 
             </div>
            </div>
     </div>
