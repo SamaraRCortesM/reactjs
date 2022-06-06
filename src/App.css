@@ -1,38 +1,110 @@
-.App {
+.CelFa{
+ 
+  background-color: rgb(242, 240, 244);
+
+}
+
+/* diseño del archivo calfc.js */
+.parte1{
+  font-style:initial;
+  color: rgb(18, 18, 58);
+  
+}
+.cajita{
+  background-color: rgb(209, 185, 239);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom:16px;
+  margin:auto;
+  width:50px;
+}
+.opc{
+  font-style: italic;
+  color: rgb(152, 152, 245);
+  
+
+}
+
+.boton1{
+  width: 20%;
+  height: 5ch;
+  border: 2px solid rgb(83, 39, 39);
+  background-color: rgb(136, 182, 239);
   text-align: center;
+  text-decoration: d;
+  font-size: medium;
+
+}
+.boton1:hover{
+  background-position: right;
+  color: black;
+  font-weight: 700;
+}
+.boton2{
+  width: 20%;
+  height: 5ch;
+  border: 2px solid rgb(83, 39, 39);
+  background-color: rgb(197, 153, 238);
+  text-align: center;
+  text-decoration: d;
+  font-size: medium;
+}
+.boton2:hover{
+  background-position: right;
+  color: black;
+  font-weight: 700;
+}
+.resultado{
+  font-style: italic;
+  font-size: medium;
+}
+/* diseño de formulario.js */
+
+.Formulario{
+  
+    
+    background-color: rgb(183, 210, 233);
+    
+  
+}
+.formularioname{
+color: brown;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* diseño de calculadora */
+
+.sumarMul{
+  background-color: rgb(231, 244, 231);
+}
+ 
+.boton11{
+  width: 20%;
+  height: 5ch;
+  border: 2px solid rgb(83, 39, 39);
+  background-color: rgb(201, 240, 153);
+  text-align: center;
+  text-decoration: d;
+  font-size: medium
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.boton22{
+  width: 20%;
+  height: 5ch;
+  border: 2px solid rgb(218, 230, 179);
+  background-color: rgb(165, 239, 180);
+  text-align: center;
+  text-decoration: d;
+  font-size: medium;
 }
+.sumaymulti{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cajita2{
+  background-color: rgb(229, 219, 241);
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom:16px;
+  margin:auto;
+  width:50px;
 }
